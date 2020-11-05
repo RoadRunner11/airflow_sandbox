@@ -25685,3 +25685,647 @@ SyntaxError: invalid syntax
 [2020-11-05 18:46:05,776] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
 [2020-11-05 18:46:06,093] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
 [2020-11-05 18:46:06,101] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.097 seconds
+[2020-11-05 18:46:19,262] {scheduler_job.py:155} INFO - Started process (PID=509) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:19,266] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:46:19,267] {logging_mixin.py:112} INFO - [2020-11-05 18:46:19,267] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:19,442] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:19,470] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:46:19,490] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,545] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,590] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,621] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,650] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,679] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,712] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,755] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,810] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,851] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,891] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,944] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,973] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:19,999] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:20,036] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:20,065] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:20,419] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:46:20,425] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.164 seconds
+[2020-11-05 18:46:32,469] {scheduler_job.py:155} INFO - Started process (PID=845) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:32,477] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:46:32,478] {logging_mixin.py:112} INFO - [2020-11-05 18:46:32,478] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:32,630] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:32,665] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:46:32,683] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,721] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,750] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,784] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,819] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,850] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,882] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,936] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:32,973] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,012] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,042] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,073] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,116] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,155] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,189] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,218] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:33,544] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:46:33,552] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.083 seconds
+[2020-11-05 18:46:45,765] {scheduler_job.py:155} INFO - Started process (PID=1136) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:45,768] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:46:45,769] {logging_mixin.py:112} INFO - [2020-11-05 18:46:45,769] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:45,920] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:45,946] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:46:45,960] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,000] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,032] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,064] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,094] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,122] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,149] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,186] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,214] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,255] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,303] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,334] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,366] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,393] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,420] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,447] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:46,730] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:46:46,734] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 0.970 seconds
+[2020-11-05 18:46:58,080] {scheduler_job.py:155} INFO - Started process (PID=1408) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:58,083] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:46:58,084] {logging_mixin.py:112} INFO - [2020-11-05 18:46:58,084] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:58,343] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:46:58,402] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:46:58,421] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,456] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,481] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,507] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,533] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,574] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,641] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,690] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,725] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,751] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,777] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,808] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,835] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,868] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,903] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:58,943] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:46:59,315] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:46:59,320] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.239 seconds
+[2020-11-05 18:47:12,357] {scheduler_job.py:155} INFO - Started process (PID=1791) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:12,362] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:47:12,363] {logging_mixin.py:112} INFO - [2020-11-05 18:47:12,362] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:12,482] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:12,523] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:47:12,539] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,570] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,602] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,640] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,666] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,693] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,726] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,753] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,791] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,819] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,845] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,923] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,955] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:12,982] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:13,013] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:13,039] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:13,313] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:47:13,317] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 0.960 seconds
+[2020-11-05 18:47:24,574] {scheduler_job.py:155} INFO - Started process (PID=2264) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:24,579] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:47:24,582] {logging_mixin.py:112} INFO - [2020-11-05 18:47:24,581] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:24,731] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:24,758] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:47:24,779] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,821] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,850] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,882] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,909] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,935] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,960] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:24,988] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,024] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,062] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,137] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,227] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,268] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,296] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,326] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,358] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:25,664] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:47:25,669] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.095 seconds
+[2020-11-05 18:47:38,879] {scheduler_job.py:155} INFO - Started process (PID=2687) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:38,885] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:47:38,886] {logging_mixin.py:112} INFO - [2020-11-05 18:47:38,886] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:39,099] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:39,140] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:47:39,164] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,215] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,292] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,354] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,403] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,451] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,482] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,513] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,539] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,565] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,598] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,625] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,681] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,716] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,755] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:39,782] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:40,108] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:47:40,111] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.232 seconds
+[2020-11-05 18:47:52,224] {scheduler_job.py:155} INFO - Started process (PID=2976) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:52,231] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:47:52,232] {logging_mixin.py:112} INFO - [2020-11-05 18:47:52,232] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:52,448] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:47:52,476] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:47:52,491] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,534] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,571] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,610] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,638] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,670] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,702] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,768] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,799] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,835] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,871] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,903] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,947] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:52,986] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:53,014] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:53,061] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:47:53,494] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:47:53,499] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.275 seconds
+[2020-11-05 18:48:05,531] {scheduler_job.py:155} INFO - Started process (PID=3272) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:05,534] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:48:05,535] {logging_mixin.py:112} INFO - [2020-11-05 18:48:05,535] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:05,702] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:05,729] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:48:05,745] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,776] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,802] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,831] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,864] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,900] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,933] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:05,969] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,004] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,059] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,167] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,220] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,267] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,321] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,364] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,407] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:06,782] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:48:06,790] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.258 seconds
+[2020-11-05 18:48:18,811] {scheduler_job.py:155} INFO - Started process (PID=3576) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:18,816] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:48:18,816] {logging_mixin.py:112} INFO - [2020-11-05 18:48:18,816] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:19,004] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:19,042] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:48:19,093] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,135] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,170] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,199] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,225] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,252] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,279] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,316] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,348] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,381] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,428] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,481] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,508] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,535] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,562] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,598] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:19,951] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:48:19,960] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.149 seconds
+[2020-11-05 18:48:32,128] {scheduler_job.py:155} INFO - Started process (PID=3857) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:32,133] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:48:32,134] {logging_mixin.py:112} INFO - [2020-11-05 18:48:32,133] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:32,287] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:32,309] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:48:32,326] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,369] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,449] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,480] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,506] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,547] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,576] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,615] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,655] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,692] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,726] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,760] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,786] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,817] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,860] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:32,941] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:33,514] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:48:33,523] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.394 seconds
+[2020-11-05 18:48:45,395] {scheduler_job.py:155} INFO - Started process (PID=4142) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:45,398] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:48:45,406] {logging_mixin.py:112} INFO - [2020-11-05 18:48:45,406] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:45,674] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:45,699] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:48:45,713] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,751] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,790] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,836] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,861] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,898] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,928] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,957] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:45,985] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,012] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,047] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,088] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,118] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,158] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,190] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,238] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:46,680] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:48:46,684] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.290 seconds
+[2020-11-05 18:48:58,702] {scheduler_job.py:155} INFO - Started process (PID=4431) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:58,707] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:48:58,709] {logging_mixin.py:112} INFO - [2020-11-05 18:48:58,709] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:58,872] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:48:58,891] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:48:58,907] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:58,945] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:58,980] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,011] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,043] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,079] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,109] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,138] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,166] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,194] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,220] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,258] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,294] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,324] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,358] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,393] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:48:59,711] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:48:59,715] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.013 seconds
+[2020-11-05 18:49:11,936] {scheduler_job.py:155} INFO - Started process (PID=4715) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:11,940] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:49:11,941] {logging_mixin.py:112} INFO - [2020-11-05 18:49:11,941] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:12,079] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:12,100] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:49:12,114] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,148] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,171] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,199] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,227] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,255] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,280] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,309] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,338] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,368] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,398] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,447] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,497] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,528] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,554] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,588] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:12,896] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:49:12,900] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 0.964 seconds
+[2020-11-05 18:49:24,147] {scheduler_job.py:155} INFO - Started process (PID=4984) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:24,153] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:49:24,155] {logging_mixin.py:112} INFO - [2020-11-05 18:49:24,154] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:24,295] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:24,317] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:49:24,337] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,368] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,399] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,430] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,465] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,497] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,525] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,556] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,589] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,619] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,647] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,682] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,712] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,774] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,806] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:24,832] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:25,115] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:49:25,121] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 0.974 seconds
+[2020-11-05 18:49:37,438] {scheduler_job.py:155} INFO - Started process (PID=5270) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:37,443] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:49:37,444] {logging_mixin.py:112} INFO - [2020-11-05 18:49:37,444] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:37,574] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:37,617] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:49:37,664] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,718] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,766] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,813] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,847] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,879] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,918] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,958] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:37,996] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,044] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,080] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,127] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,179] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,266] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,345] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,388] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:38,925] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:49:38,935] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.497 seconds
+[2020-11-05 18:49:51,833] {scheduler_job.py:155} INFO - Started process (PID=5587) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:51,838] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:49:51,839] {logging_mixin.py:112} INFO - [2020-11-05 18:49:51,839] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:52,043] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:49:52,098] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:49:52,128] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,172] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,214] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,251] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,280] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,318] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,361] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,409] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,467] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,516] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,549] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,577] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,628] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,677] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,728] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:52,844] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:49:53,427] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:49:53,435] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.603 seconds
+[2020-11-05 18:50:05,193] {scheduler_job.py:155} INFO - Started process (PID=5889) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:05,205] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:50:05,206] {logging_mixin.py:112} INFO - [2020-11-05 18:50:05,205] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:05,438] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:05,458] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:50:05,488] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,547] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,584] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,635] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,713] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,765] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,826] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,874] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,921] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:05,957] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,001] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,058] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,109] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,180] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,237] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,298] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:06,947] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:50:06,954] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.761 seconds
+[2020-11-05 18:50:18,527] {scheduler_job.py:155} INFO - Started process (PID=6188) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:18,564] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:50:18,565] {logging_mixin.py:112} INFO - [2020-11-05 18:50:18,565] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:18,715] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:18,746] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:50:18,785] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:18,836] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:18,883] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:18,918] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:18,947] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,001] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,033] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,067] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,099] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,139] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,173] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,199] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,237] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,271] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,301] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,332] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:19,715] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:50:19,720] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.193 seconds
+[2020-11-05 18:50:31,769] {scheduler_job.py:155} INFO - Started process (PID=6485) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:31,773] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:50:31,774] {logging_mixin.py:112} INFO - [2020-11-05 18:50:31,774] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:31,985] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:32,026] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:50:32,088] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,126] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,159] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,189] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,218] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,246] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,294] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,336] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,375] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,411] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,445] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,474] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,514] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,542] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,574] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:32,623] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:33,098] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:50:33,102] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.333 seconds
+[2020-11-05 18:50:45,169] {scheduler_job.py:155} INFO - Started process (PID=6792) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:45,176] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:50:45,177] {logging_mixin.py:112} INFO - [2020-11-05 18:50:45,177] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:45,669] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:45,732] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:50:45,759] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:45,800] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:45,845] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:45,898] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:45,945] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,051] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,102] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,164] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,208] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,278] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,329] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,402] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,449] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,494] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,538] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:46,594] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:47,142] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:50:47,161] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.992 seconds
+[2020-11-05 18:50:58,393] {scheduler_job.py:155} INFO - Started process (PID=7080) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:58,396] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:50:58,397] {logging_mixin.py:112} INFO - [2020-11-05 18:50:58,397] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:58,526] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:50:58,597] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:50:58,621] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:58,743] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:58,771] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:58,807] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:58,842] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:58,903] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,031] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,094] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,129] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,167] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,207] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,249] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,315] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,382] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,421] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,461] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:50:59,745] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:50:59,750] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.358 seconds
+[2020-11-05 18:51:12,725] {scheduler_job.py:155} INFO - Started process (PID=7388) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:12,730] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:51:12,731] {logging_mixin.py:112} INFO - [2020-11-05 18:51:12,730] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:12,969] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:13,015] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:51:13,051] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,180] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,235] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,311] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,376] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,429] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,497] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,575] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,639] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,739] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:13,878] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:14,107] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:14,241] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:14,303] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:14,602] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:14,652] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:15,165] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:51:15,171] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 2.446 seconds
+[2020-11-05 18:51:26,051] {scheduler_job.py:155} INFO - Started process (PID=7666) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:26,053] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:51:26,054] {logging_mixin.py:112} INFO - [2020-11-05 18:51:26,054] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:26,278] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:26,300] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:51:26,313] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,344] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,376] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,414] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,448] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,480] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,515] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,566] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,600] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,638] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,680] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,712] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,740] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,774] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,806] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:26,831] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:27,231] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:51:27,238] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.188 seconds
+[2020-11-05 18:51:40,314] {scheduler_job.py:155} INFO - Started process (PID=7969) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:40,319] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:51:40,319] {logging_mixin.py:112} INFO - [2020-11-05 18:51:40,319] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:40,480] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:51:40,503] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:51:40,520] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,569] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,609] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,651] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,685] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,733] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,791] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,848] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,896] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:40,951] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,014] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,070] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,112] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,163] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,228] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,288] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:51:41,627] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:51:41,635] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.321 seconds
+[2020-11-05 18:52:16,354] {scheduler_job.py:155} INFO - Started process (PID=8436) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:16,380] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:52:16,389] {logging_mixin.py:112} INFO - [2020-11-05 18:52:16,389] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:16,975] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:17,043] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:52:17,106] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:17,271] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:17,381] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:17,487] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:17,804] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,117] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,200] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,303] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,381] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,560] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,704] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,818] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:18,906] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:19,010] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:19,128] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:19,493] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:22,527] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:52:22,538] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 6.185 seconds
+[2020-11-05 18:52:32,195] {scheduler_job.py:155} INFO - Started process (PID=8738) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:32,200] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:52:32,201] {logging_mixin.py:112} INFO - [2020-11-05 18:52:32,201] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:32,610] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:32,672] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:52:32,700] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:32,794] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:32,930] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:32,990] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,049] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,105] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,140] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,176] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,214] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,267] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,333] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,411] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,479] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,527] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,569] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:33,657] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:34,075] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:52:34,080] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.884 seconds
+[2020-11-05 18:52:46,668] {scheduler_job.py:155} INFO - Started process (PID=9044) to work on /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:46,672] {scheduler_job.py:1589} INFO - Processing file /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py for tasks to queue
+[2020-11-05 18:52:46,673] {logging_mixin.py:112} INFO - [2020-11-05 18:52:46,673] {dagbag.py:417} INFO - Filling up the DagBag from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:46,921] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['S3_task']) retrieved from /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py
+[2020-11-05 18:52:46,949] {scheduler_job.py:1305} INFO - Processing S3_task
+[2020-11-05 18:52:46,968] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 00:02:00+00:00: scheduled__2020-11-05T00:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,011] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 01:02:00+00:00: scheduled__2020-11-05T01:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,051] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 02:02:00+00:00: scheduled__2020-11-05T02:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,083] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 03:02:00+00:00: scheduled__2020-11-05T03:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,134] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 04:02:00+00:00: scheduled__2020-11-05T04:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,175] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 05:02:00+00:00: scheduled__2020-11-05T05:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,204] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 06:02:00+00:00: scheduled__2020-11-05T06:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,237] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 07:02:00+00:00: scheduled__2020-11-05T07:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,270] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 08:02:00+00:00: scheduled__2020-11-05T08:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,336] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 09:02:00+00:00: scheduled__2020-11-05T09:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,388] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 10:02:00+00:00: scheduled__2020-11-05T10:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,457] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 11:02:00+00:00: scheduled__2020-11-05T11:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,499] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 12:02:00+00:00: scheduled__2020-11-05T12:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,533] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 13:02:00+00:00: scheduled__2020-11-05T13:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,567] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 14:02:00+00:00: scheduled__2020-11-05T14:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:47,633] {scheduler_job.py:771} INFO - Examining DAG run <DagRun S3_task @ 2020-11-05 15:02:00+00:00: scheduled__2020-11-05T15:02:00+00:00, externally triggered: False>
+[2020-11-05 18:52:48,250] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: S3_task> because no tasks in DAG have SLAs
+[2020-11-05 18:52:48,255] {scheduler_job.py:163} INFO - Processing /home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py took 1.587 seconds

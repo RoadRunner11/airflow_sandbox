@@ -30,3 +30,9 @@
 [2020-11-05 18:42:34,135] {S3_hook.py:209} INFO - Forbidden
 [2020-11-05 18:44:34,234] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
 [2020-11-05 18:44:35,757] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:46:35,859] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:46:37,094] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:48:37,144] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:48:38,224] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:50:38,325] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:51:11,154] {S3_hook.py:209} INFO - Forbidden
