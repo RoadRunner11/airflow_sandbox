@@ -1,0 +1,32 @@
+[2020-11-05 18:25:50,070] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: S3_task.get_new_json 2020-11-05T04:02:00+00:00 [queued]>
+[2020-11-05 18:25:50,161] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: S3_task.get_new_json 2020-11-05T04:02:00+00:00 [queued]>
+[2020-11-05 18:25:50,162] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-05 18:25:50,162] {taskinstance.py:881} INFO - Starting attempt 1 of 4
+[2020-11-05 18:25:50,162] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-05 18:25:50,199] {taskinstance.py:901} INFO - Executing <Task(S3KeySensor): get_new_json> on 2020-11-05T04:02:00+00:00
+[2020-11-05 18:25:50,206] {standard_task_runner.py:54} INFO - Started process 6654 to run task
+[2020-11-05 18:25:50,316] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'S3_task', 'get_new_json', '2020-11-05T04:02:00+00:00', '--job_id', '343', '--pool', 'default_pool', '--raw', '-sd', '/home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py', '--cfg_path', '/tmp/tmpbdmllz2c']
+[2020-11-05 18:25:50,319] {standard_task_runner.py:78} INFO - Job 343: Subtask get_new_json
+[2020-11-05 18:25:50,384] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: S3_task.get_new_json 2020-11-05T04:02:00+00:00 [running]> akorede-VirtualBox
+[2020-11-05 18:25:50,438] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:25:51,606] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:27:51,705] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:27:53,022] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:29:53,122] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:29:54,258] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:31:54,339] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:31:55,580] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:33:55,656] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:33:56,913] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:35:56,987] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:36:30,440] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:38:30,538] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:38:31,759] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:40:31,861] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:40:32,931] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:42:32,970] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:42:34,135] {S3_hook.py:209} INFO - Forbidden
+[2020-11-05 18:44:34,234] {s3_key_sensor.py:88} INFO - Poking for key : s3://ypsource-bucket/pinpoint-analytics/2020/11/05/ypsource.json
+[2020-11-05 18:44:35,757] {S3_hook.py:209} INFO - Forbidden

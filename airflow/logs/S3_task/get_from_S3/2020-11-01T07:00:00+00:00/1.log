@@ -1,0 +1,15 @@
+[2020-11-01 18:53:26,681] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: S3_task.get_from_S3 2020-11-01T07:00:00+00:00 [queued]>
+[2020-11-01 18:53:26,764] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: S3_task.get_from_S3 2020-11-01T07:00:00+00:00 [queued]>
+[2020-11-01 18:53:26,764] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-01 18:53:26,764] {taskinstance.py:881} INFO - Starting attempt 1 of 4
+[2020-11-01 18:53:26,764] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-01 18:53:26,784] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): get_from_S3> on 2020-11-01T07:00:00+00:00
+[2020-11-01 18:53:26,790] {standard_task_runner.py:54} INFO - Started process 25397 to run task
+[2020-11-01 18:53:26,903] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'S3_task', 'get_from_S3', '2020-11-01T07:00:00+00:00', '--job_id', '15', '--pool', 'default_pool', '--raw', '-sd', '/home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py', '--cfg_path', '/tmp/tmpotjmr86r']
+[2020-11-01 18:53:26,907] {standard_task_runner.py:78} INFO - Job 15: Subtask get_from_S3
+[2020-11-01 18:53:26,976] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: S3_task.get_from_S3 2020-11-01T07:00:00+00:00 [running]> akorede-VirtualBox
+[2020-11-01 18:53:29,453] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-11-01 18:53:29,480] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=S3_task, task_id=get_from_S3, execution_date=20201101T070000, start_date=20201101T175326, end_date=20201101T175329
+[2020-11-01 18:53:31,599] {local_task_job.py:102} INFO - Task exited with return code 0

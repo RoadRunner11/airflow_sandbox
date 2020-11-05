@@ -1,0 +1,15 @@
+[2020-11-02 12:44:21,493] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: S3_task.upload_file_to_S3 2020-11-02T09:02:00+00:00 [queued]>
+[2020-11-02 12:44:21,530] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: S3_task.upload_file_to_S3 2020-11-02T09:02:00+00:00 [queued]>
+[2020-11-02 12:44:21,530] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-02 12:44:21,530] {taskinstance.py:881} INFO - Starting attempt 3 of 4
+[2020-11-02 12:44:21,530] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-02 12:44:21,553] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): upload_file_to_S3> on 2020-11-02T09:02:00+00:00
+[2020-11-02 12:44:21,557] {standard_task_runner.py:54} INFO - Started process 3000 to run task
+[2020-11-02 12:44:21,656] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'S3_task', 'upload_file_to_S3', '2020-11-02T09:02:00+00:00', '--job_id', '252', '--pool', 'default_pool', '--raw', '-sd', '/home/akorede/Documents/airflow_sandbox/airflow/dags/s3_dag.py', '--cfg_path', '/tmp/tmpqpx68izy']
+[2020-11-02 12:44:21,659] {standard_task_runner.py:78} INFO - Job 252: Subtask upload_file_to_S3
+[2020-11-02 12:44:21,815] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: S3_task.upload_file_to_S3 2020-11-02T09:02:00+00:00 [running]> akorede-VirtualBox
+[2020-11-02 12:44:26,306] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-11-02 12:44:26,365] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=S3_task, task_id=upload_file_to_S3, execution_date=20201102T090200, start_date=20201102T114421, end_date=20201102T114426
+[2020-11-02 12:44:26,471] {local_task_job.py:102} INFO - Task exited with return code 0
